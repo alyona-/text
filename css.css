@@ -1,0 +1,215 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 980px;
+}
+
+/*Стили для блоков*/
+.blockButtons {
+    min-width: 100px;
+    margin: 0;
+    min-width: 150px;
+    width: 20%;
+    height: 120%;
+    float: left;
+    background: blue;
+    background: linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -webkit-linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -moz-linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -o-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -ms-gradient(to right bottom,#6C97DB,#042C6A);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6C97DB', endColorstr='#042C6A', GradientType=0);
+}
+.block {
+    min-width: 320px;
+    width: 40%;
+    float: left;
+    /* color: #fff; */
+    margin: 0;
+    height: 120%;
+    background: blue;
+    background: linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -webkit-linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -moz-linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -o-linear-gradient(to right bottom,#6C97DB,#042C6A);
+    background: -ms-linear-gradient(to right bottom,#6C97DB,#042C6A);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6C97DB', endColorstr='#042C6A', GradientType=0);
+}
+/*Приствка*/
+span {
+    border-right: 2px solid orangered;
+    border-top: 2px solid orangered;
+}
+.block label {
+    font-size: 20px;
+}
+/*Измененный текст*/
+#changeText {
+    display: block;
+    margin: 50px 20px;
+    padding: 30px 20px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    text-indent: 30px;
+    font-weight: bold;
+
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    behavior: url(border-radius.htc);
+}
+
+/*Поле для ввода текста*/
+#text {
+    padding: 30px 20px;
+    text-indent: 30px;
+
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    behavior: url(border-radius.htc);
+}
+h2, label {
+    color: #fff;
+    text-align: center;
+}
+textarea {
+    margin-left: 5%;
+}
+/*Стили для кнопок*/
+input {
+    width: 130px;
+    height: 70px;
+    margin: 20px 10px;
+    font-family: "Cambria";
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    behavior: url(border-radius.htc);
+}
+
+input:hover{
+    font-size:22px;
+}
+.block label {
+    margin-left: 5%;
+}
+
+/*Кнопки*/
+#wordButton{
+    background:#9C599E;
+    background: linear-gradient(to top,#D0FF62,#B55037);
+    background: -webkit-linear-gradient(to top,#D0FF62,#B55037);
+    background: -moz-linear-gradient(to top,#D0FF62,#B55037);
+    background: -o-linear-gradient(to top,#D0FF62,#B55037);
+    background: -ms-linear-gradient(to top,#D0FF62,#B55037);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D0FF62', endColorstr='#B55037', GradientType=0);
+}
+#wordButton:hover {
+    background:#CBA0CB;
+    background: linear-gradient(to top,#F1FFA9,#FFA088);
+    background: -webkit-linear-gradient(to top,#F1FFA9,#FFA088);
+    background: -moz-linear-gradient(to top,#F1FFA9,#FFA088);
+    background: -o-linear-gradient(to top,#F1FFA9,#FFA088);
+    background: -ms-linear-gradient(to top,#F1FFA9,#FFA088);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F1FFA9', endColorstr='#FFA088', GradientType=0);
+
+}
+
+#glasButton {
+    background:#9C599E ;
+    background: linear-gradient(to top,#E97BE4,#321A32);
+    background: -webkit-linear-gradient(to top,#E97BE4,#321A32);
+    background: -moz-linear-gradient(to top,#E97BE4,#321A32);
+    background: -o-linear-gradient(to top,#E97BE4,#321A32);
+    background: -ms-linear-gradient(to top,#E97BE4,#321A32);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E97BE4', endColorstr='#321A32', GradientType=0);
+}
+#glasButton:hover {
+    background:#CBA0CB;
+    background: linear-gradient(to top,#FFB5FB,#A032A0);
+    background: -webkit-linear-gradient(to top,#FFB5FB,#A032A0);
+    background: -moz-linear-gradient(to top,#FFB5FB,#A032A0);
+    background: -o-linear-gradient(to top,#FFB5FB,#A032A0);
+    background: -ms-linear-gradient(to top,#FFB5FB,#A032A0);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB5FB', endColorstr='#A032A0', GradientType=0);
+
+}
+#soglButton {
+    background:#9C599E ;
+    background: linear-gradient(to top,#0CC0E1,#023A61);
+    background: -webkit-linear-gradient(to top,#0CC0E1,#023A61);
+    background: -moz-linear-gradient(to top,#0CC0E1,#023A61);
+    background: -o-linear-gradient(to top,#0CC0E1,#023A61);
+    background: -ms-linear-gradient(to top,#0CC0E1,#023A61);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0CC0E1', endColorstr='#023A61', GradientType=0);
+}
+#soglButton:hover {
+    background:#CBA0CB;
+    background: linear-gradient(to top,#00D9FF,#70A5CA);
+    background: -webkit-linear-gradient(to top,#00D9FF,#70A5CA);
+    background: -moz-linear-gradient(to top,#00D9FF,#70A5CA);
+    background: -o-linear-gradient(to top,#00D9FF,#70A5CA);
+    background: -ms-linear-gradient(to top,#00D9FF,#70A5CA);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00D9FF', endColorstr='#70A5CA', GradientType=0);
+
+}
+#slogButton {
+    background:#9C599E;
+    background: linear-gradient(to top,#D2DD91,#28763C);
+    background: -webkit-linear-gradient(to top,#D2DD91,#28763C);
+    background: -moz-linear-gradient(to top,#D2DD91,#28763C);
+    background: -o-linear-gradient(to top,#D2DD91,#28763C);
+    background: -ms-linear-gradient(to top,#D2DD91,#28763C);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D2DD91', endColorstr='#28763C', GradientType=0);
+}
+#slogButton:hover {
+    background:#CBA0CB;
+    background: linear-gradient(to top,#F2FFA7,#56FF80);
+    background: -webkit-linear-gradient(to top,#F2FFA7,#56FF80);
+    background: -moz-linear-gradient(to top,#F2FFA7,#56FF80);
+    background: -o-linear-gradient(to top,#F2FFA7,#56FF80);
+    background: -ms-linear-gradient(to top,#F2FFA7,#56FF80);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2FFA7', endColorstr='#56FF80', GradientType=0);
+}
+#pristButton{
+    background:#C15378;
+    background: linear-gradient(to top,#C1899C,#C13161);
+    background: -webkit-linear-gradient(to top,#C1899C,#C13161);
+    background: -moz-linear-gradient(to top,#C1899C,#C13161);
+    background: -o-linear-gradient(to top,#C1899C,#C13161);
+    background: -ms-linear-gradient(to top,#C1899C,#C13161);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C1899C', endColorstr='#C13161', GradientType=0);
+}
+#pristButton:hover {
+    background:#9C599E;
+    background: linear-gradient(to top,#FFB5CE,#FF77A4);
+    background: -webkit-linear-gradient(to top,#FFB5CE,#FF77A4);
+    background: -moz-linear-gradient(to top,#FFB5CE,#FF77A4);
+    background: -o-linear-gradient(to top,#FFB5CE,#FF77A4);
+    background: -ms-linear-gradient(to top,#FFB5CE,#FF77A4);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB5CE', endColorstr='#FF77A4', GradientType=0);
+}
+
