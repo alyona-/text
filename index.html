@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>текст</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="js.js?code=UTF-8"></script>
+</head>
+<body onload="main()">
+
+<div class="blockButtons">
+    <input type="submit" value="Слова" id="wordButton" onclick="textClick(1)">
+    <br/>
+    <input type="submit" value="Гласные" id="glasButton" onclick="textClick(2)">
+    <br/>
+    <input type="submit" value="Согласные" id="soglButton" onclick="textClick(3)">
+    <br/>
+    <input type="submit" value="Слоги" id="slogButton" onclick="textClick(4)">
+    <br/>
+    <input type="submit" value="Приставки" id="pristButton" onclick="textClick(5)">
+</div>
+
+
+<!--button,button2,..-->
+<div class="block">
+   <div class="block_title">
+			<h2>Текст</h2>
+			<label for="text">Введите слово, предложение или текст.</label>
+	</div>
+    <textarea rows="19" cols="35" id="text"></textarea>
+</div>
+
+<div class="block">
+	<div class="block_title">
+		 <h2>Измененный текст</h2>
+	</div>
+   
+    <p id="changeText"></p>
+</div>
+
+</body>
+
+</html>
